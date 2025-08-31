@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 200px;
+            padding: 200px;
+            border: 30px solid rgb(0, 3, 11);
+            margin: 25px;
+            background-color: rgb(15, 243, 255);
+            color: aliceblue;
+        }
+        .container {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+            background-color: aliceblue;
+            padding: 10px;
+            justify-content: space-between;
+        }
+        .item {
+            width: 100px;
+            height: 100px;
+            background-color: rgba(22, 208, 255, 0.402);
+            border: 2px solid rgb(0, 0, 0);
+            padding: 20px;
+            margin: 10px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="box">
+      <p><strong>MAN CITY</strong></p>
+    </div>
+    <div class="container">
+        <div class="item"><strong>Haland</strong></div>
+        <div class="item"><strong>De bruyne</strong></div>
+        <div class="item"><strong>Ederson</strong></div>
+    </div>
+</body>
+</html>
